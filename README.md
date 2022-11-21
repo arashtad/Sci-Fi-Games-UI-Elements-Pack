@@ -20,15 +20,15 @@ This is a Sci-Fi style UI elements pack that can be used for web based games, ap
 ```sh
 <div class="ar-tabs">
     <ul class="ar-tabs-buttons">
-        <li>Tab Button #1</li>
-        <li>Tab Button #2</li>
-        <li>Tab Button #3</li>
-        <li>Tab Button #4</li>
+        <li>Tab Button 1</li>
+        <li>Tab Button 2</li>
+        <li>Tab Button 3</li>
+        <li>Tab Button 4</li>
     </ul>
     <ul class="ar-tabs-content">
         <li>
             <h3 class="warning">
-                Tab Content #1
+                Tab Content 1
             </h3>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit...
