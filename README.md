@@ -1,4 +1,4 @@
-# Sci-Fi-Games-UI-Elements-Pack
+# Sci-Fi Games UI Elements Pack
 
 * Product Name:    Sci-Fi Game UI
 * Description:     UI elements pack for Sci-Fi games.
@@ -73,3 +73,4 @@ This product uses some open source tools such as:
 
 * jQuery
 * OverlayScrollbar
+* FontAwesome v4.7.0
