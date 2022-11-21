@@ -1,0 +1,51 @@
+/***
+  __    ___    __    __   _    _____   __    ___
+ / /\  | |_)  / /\  ( (` | |_|  | |   / /\  | | \
+/_/--\ |_| \ /_/--\ _)_) |_| |  |_|  /_/--\ |_|_/
+
+*** Product Name:    Sci-Fi Game UI
+*** Description:     UI elements pack for Sci-Fi games.
+*** Author:          Arashtad
+*** Author URI:      https://arashtad.com
+*** Version:         1.0.0
+*** License:         GNU General Public License V3
+*** Copyright:       (C) 2022 - Arashtad.com. All Rights Reserved.
+
+***/
+
+// DOM
+html, body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    color: $light;
+    direction: $direction;
+    font-weight: normal;
+    font-family: 'monitorica', sans-serif;
+    font-size: $font-size;
+    line-height: $line-height;
+}
+body {
+    min-height: 100%;
+    background: $bg;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-family: 'pirulen', sans-serif;
+}
+a {
+    color: $accent;
+    text-decoration: none;
+    @include transition(all .3s);
+
+    &:hover {
+        color: $warning-color;
+    }
+}
+pre {
+    white-space: break-spaces;
+}
+main {
+    min-height: 93%;
+}
