@@ -11,7 +11,7 @@
 
 ## Demo
 
-To see the product in action [Visit the Live Demo](https://demo.arashtad.com/?category=Frontend_Development&&item=Sci-Fi_Games_UI).
+To see the product in action [Visit the Live Demo](https://demo.arashtad.com/?category=Frontend_Development&&item=Sci-Fi_Game_UI).
 
 ## Purpose
 
