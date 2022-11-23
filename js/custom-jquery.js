@@ -68,4 +68,11 @@ $(document).ready(function() {
             $tabs.find('.ar-tabs-content').find('li:nth-child(' + activeTab + ')').addClass('active');
         });
     });
+
+    $(window).resize(function(){
+        var winHeight = $(window).height();
+        var screenHeight = (winHeight / 100) * 29;
+        var screenWidth = screenHeight * 4.05;
+        $('.screen').width(screenWidth);
+    });
 });
