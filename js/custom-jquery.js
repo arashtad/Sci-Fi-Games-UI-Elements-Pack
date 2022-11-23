@@ -17,7 +17,7 @@
 $(document).ready(function() {
     // Changing the default browser scrollbar ¯\_(ツ)_/¯
     $(function() {
-        $('html, body, .ar-slider-list > li').overlayScrollbars({ });
+        $('.ar-slider-list > li').overlayScrollbars({ });
     });
 
     $('.ar-slider').each(function() {
