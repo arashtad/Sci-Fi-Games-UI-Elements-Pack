@@ -69,10 +69,14 @@ $(document).ready(function() {
         });
     });
 
-    $(window).resize(function(){
+    functio resizeScreen() {
         var winHeight = $(window).height();
         var screenHeight = (winHeight / 100) * 29;
         var screenWidth = screenHeight * 4.05;
         $('.screen').width(screenWidth);
+    }
+    resizeScreen();
+    $(window).resize(function(){
+        resizeScreen();
     });
 });
