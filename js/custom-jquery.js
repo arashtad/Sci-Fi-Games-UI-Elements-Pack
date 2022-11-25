@@ -69,7 +69,7 @@ $(document).ready(function() {
         });
     });
 
-    functio resizeScreen() {
+    function resizeScreen() {
         var winHeight = $(window).height();
         var screenHeight = (winHeight / 100) * 29;
         var screenWidth = screenHeight * 4.05;
@@ -78,5 +78,19 @@ $(document).ready(function() {
     resizeScreen();
     $(window).resize(function(){
         resizeScreen();
+    });
+
+    // Opening modals
+    $('.ar-modal').click(function() {
+        var id = $(this).attr('data-rel');
+        $('#' + id).addClass('open');
+    });
+
+    // Closing modals
+    $('.ar-modal-close').each(function() {
+        var id = $(this).parent('.ar-modal-window').attr('id');
+        $(this).click(function() {
+            $('#' + id).removeClass('open');
+        });
     });
 });

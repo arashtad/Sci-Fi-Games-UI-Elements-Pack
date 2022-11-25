@@ -1146,3 +1146,51 @@ img {
     transform: translateX(-50%);
     left: 50%;
 }
+.ar-modal {
+    cursor: pointer;
+}
+.ar-modal-window {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(black, .7);
+    opacity: 0;
+
+    .ar-modal-close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50px;
+        height: 50px;
+        background: rgba($light, .7);
+        text-align: center;
+        font-size: 24px;
+        line-height: 50px;
+        cursor: pointer;
+        opacity: .3;
+        @include transition(all .3s);
+
+        &:before {
+            font-family: FontAwesome;
+            content: '\f00d';
+            color: $dark;
+        }
+        &:hover {
+            opacity: .9;
+        }
+    }
+    .ar-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        @include transform(translateX(-50%) translateY(-50%));
+    }
+    &.open {
+        display: block;
+        animation: fadein 1s 1 forwards;
+    }
+}
