@@ -391,6 +391,7 @@
 }
 .ar-grid {
     .ar-grid-row {
+        position: relative;
         -webkit-display: flex;
         display: flex;
         width: 100%;
@@ -1121,7 +1122,7 @@ img {
         margin: 0;
         box-sizing: border-box;
 
-        li {
+        > li {
             position: absolute;
             top: 0;
             left: 0;
