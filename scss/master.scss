@@ -1005,6 +1005,7 @@
         height: 80px;
         background: url(../images/logo.webp) no-repeat center center;
         background-size: contain;
+        animation: blink 1s ease infinite alternate;
     }
     .ar-preloader-wrapper {
         ul {
