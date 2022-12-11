@@ -73,7 +73,7 @@ $(document).ready(function() {
         var winHeight = $(window).height();
         var screenHeight = (winHeight / 100) * 29;
         var screenWidth = screenHeight * 4.05;
-        $('.screen').width(screenWidth);
+        $('.screen, .screen .inner').width(screenWidth);
     }
     resizeScreen();
     $(window).resize(function(){
