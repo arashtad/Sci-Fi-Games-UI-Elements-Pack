@@ -1,0 +1,1854 @@
+/***
+  __    ___    __    __   _    _____   __    ___
+ / /\  | |_)  / /\  ( (` | |_|  | |   / /\  | | \
+/_/--\ |_| \ /_/--\ _)_) |_| |  |_|  /_/--\ |_|_/
+
+*** Product Name:    Sci-Fi Game UI
+*** Description:     UI elements pack for Sci-Fi games.
+*** Author:          Arashtad
+*** Author URI:      https://arashtad.com
+*** Version:         1.0.0
+*** Creation Date:   Nov 21, 2022
+*** License:         GNU General Public License V3
+*** Copyright:       (C) 2022 - Arashtad.com. All Rights Reserved.
+
+***/
+/***
+  __    ___    __    __   _    _____   __    ___
+ / /\  | |_)  / /\  ( (` | |_|  | |   / /\  | | \
+/_/--\ |_| \ /_/--\ _)_) |_| |  |_|  /_/--\ |_|_/
+
+*** Product Name:    Sci-Fi Game UI
+*** Description:     UI elements pack for Sci-Fi games.
+*** Author:          Arashtad
+*** Author URI:      https://arashtad.com
+*** Version:         1.0.0
+*** Creation Date:   Nov 21, 2022
+*** License:         GNU General Public License V3
+*** Copyright:       (C) 2022 - Arashtad.com. All Rights Reserved.
+
+***/
+@font-face {
+  font-family: "pirulen";
+  src: url("../fonts/pirulen/PirulenRg-Regular.eot");
+  src: url("../fonts/pirulen/PirulenRg-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/pirulen/PirulenRg-Regular.woff2") format("woff2"), url("../fonts/pirulen/PirulenRg-Regular.woff") format("woff"), url("../fonts/pirulen/PirulenRg-Regular.ttf") format("truetype"), url("../fonts/pirulen/PirulenRg-Regular.svg#PirulenRg-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "monitorica";
+  src: url("../fonts/monitorica/Monitorica.eot");
+  src: url("../fonts/monitorica/Monitorica.eot?#iefix") format("embedded-opentype"), url("../fonts/monitorica/Monitorica.woff2") format("woff2"), url("../fonts/monitorica/Monitorica.woff") format("woff"), url("../fonts/monitorica/Monitorica.ttf") format("truetype"), url("../fonts/monitorica/Monitorica.svg#Monitorica") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+/***
+  __    ___    __    __   _    _____   __    ___
+ / /\  | |_)  / /\  ( (` | |_|  | |   / /\  | | \
+/_/--\ |_| \ /_/--\ _)_) |_| |  |_|  /_/--\ |_|_/
+
+*** Product Name:    Sci-Fi Game UI
+*** Description:     UI elements pack for Sci-Fi games.
+*** Author:          Arashtad
+*** Author URI:      https://arashtad.com
+*** Version:         1.0.0
+*** Creation Date:   Nov 21, 2022
+*** License:         GNU General Public License V3
+*** Copyright:       (C) 2022 - Arashtad.com. All Rights Reserved.
+
+***/
+/***
+  __    ___    __    __   _    _____   __    ___
+ / /\  | |_)  / /\  ( (` | |_|  | |   / /\  | | \
+/_/--\ |_| \ /_/--\ _)_) |_| |  |_|  /_/--\ |_|_/
+
+*** Product Name:    Sci-Fi Game UI
+*** Description:     UI elements pack for Sci-Fi games.
+*** Author:          Arashtad
+*** Author URI:      https://arashtad.com
+*** Version:         1.0.0
+*** Creation Date:   Nov 21, 2022
+*** License:         GNU General Public License V3
+*** Copyright:       (C) 2022 - Arashtad.com. All Rights Reserved.
+
+***/
+/***
+  __    ___    __    __   _    _____   __    ___
+ / /\  | |_)  / /\  ( (` | |_|  | |   / /\  | | \
+/_/--\ |_| \ /_/--\ _)_) |_| |  |_|  /_/--\ |_|_/
+
+*** Product Name:    Sci-Fi Game UI
+*** Description:     UI elements pack for Sci-Fi games.
+*** Author:          Arashtad
+*** Author URI:      https://arashtad.com
+*** Version:         1.0.0
+*** Creation Date:   Nov 21, 2022
+*** License:         GNU General Public License V3
+*** Copyright:       (C) 2022 - Arashtad.com. All Rights Reserved.
+
+***/
+/***
+  __    ___    __    __   _    _____   __    ___
+ / /\  | |_)  / /\  ( (` | |_|  | |   / /\  | | \
+/_/--\ |_| \ /_/--\ _)_) |_| |  |_|  /_/--\ |_|_/
+
+*** Product Name:    Sci-Fi Game UI
+*** Description:     UI elements pack for Sci-Fi games.
+*** Author:          Arashtad
+*** Author URI:      https://arashtad.com
+*** Version:         1.0.0
+*** Creation Date:   Nov 21, 2022
+*** License:         GNU General Public License V3
+*** Copyright:       (C) 2022 - Arashtad.com. All Rights Reserved.
+
+***/
+@keyframes blink {
+  from {
+    opacity: 0.7;
+  }
+  to {
+    opacity: 0.3;
+  }
+}
+@keyframes smooth-blink {
+  from {
+    opacity: 0.95;
+  }
+  to {
+    opacity: 0.75;
+  }
+}
+@keyframes full-blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(120deg);
+  }
+  40% {
+    transform: rotate(120deg);
+  }
+  60% {
+    transform: rotate(240deg);
+  }
+  80% {
+    transform: rotate(240deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate-reverse {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(-120deg);
+  }
+  40% {
+    transform: rotate(-120deg);
+  }
+  60% {
+    transform: rotate(-240deg);
+  }
+  80% {
+    transform: rotate(-240deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes rotate-reverse-2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(-360deg);
+  }
+  80% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/***
+  __    ___    __    __   _    _____   __    ___
+ / /\  | |_)  / /\  ( (` | |_|  | |   / /\  | | \
+/_/--\ |_| \ /_/--\ _)_) |_| |  |_|  /_/--\ |_|_/
+
+*** Product Name:    Sci-Fi Game UI
+*** Description:     UI elements pack for Sci-Fi games.
+*** Author:          Arashtad
+*** Author URI:      https://arashtad.com
+*** Version:         1.0.0
+*** Creation Date:   Nov 21, 2022
+*** License:         GNU General Public License V3
+*** Copyright:       (C) 2022 - Arashtad.com. All Rights Reserved.
+
+***/
+html, body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+  color: #ffffff;
+  direction: lrt;
+  font-weight: normal;
+  font-family: "monitorica", sans-serif;
+  font-size: 15px;
+  line-height: 1.4em;
+}
+
+body {
+  min-height: 100%;
+  background: #030c0d;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-family: "pirulen", sans-serif;
+}
+
+a {
+  color: #17877a;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+a:hover {
+  color: #ffa347;
+}
+
+pre {
+  white-space: break-spaces;
+}
+
+main {
+  min-height: 93%;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=password],
+textarea {
+  padding: 7px;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  background: #000000;
+  color: #17877a;
+  transition: all 0.3s;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+input[type=password]:focus,
+textarea:focus {
+  border: 1px solid #17877a;
+  outline: none;
+}
+
+input[type=file] {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  padding: 7px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  cursor: pointer;
+}
+input[type=file]:before {
+  font-family: FontAwesome;
+  content: "\f093";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 7px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: #17877a;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+input[type=file]:hover:before {
+  background: #21c0ad;
+}
+
+/***
+  __    ___    __    __   _    _____   __    ___
+ / /\  | |_)  / /\  ( (` | |_|  | |   / /\  | | \
+/_/--\ |_| \ /_/--\ _)_) |_| |  |_|  /_/--\ |_|_/
+
+*** Product Name:    Sci-Fi Game UI
+*** Description:     UI elements pack for Sci-Fi games.
+*** Author:          Arashtad
+*** Author URI:      https://arashtad.com
+*** Version:         1.0.0
+*** Creation Date:   Nov 21, 2022
+*** License:         GNU General Public License V3
+*** Copyright:       (C) 2022 - Arashtad.com. All Rights Reserved.
+
+***/
+.noselect, .ar-tabs ul.ar-tabs-buttons li, .ar-preloader,
+.ar-preloader-2, .ar-table.ar-preloader,
+.ar-table.ar-preloader-2, .ar-pagination li > a, .ar-pagination li > span, .ar-pagination li > a.ar-table, .ar-pagination li > span.ar-table, .ar-list li a, .ar-list li > span, .ar-list li a.ar-table, .ar-list li > span.ar-table, .ar-table.noselect, .ar-table.message, .ar-box .ar-box-block .ar-box-title, .message {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-none {
+  float: none;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.margin {
+  margin: 10px;
+}
+.margin-20 {
+  margin: 20px;
+}
+.margin-30 {
+  margin: 30px;
+}
+.margin-40px {
+  margin: 40px;
+}
+.margin-50 {
+  margin: 50px;
+}
+.margin-100 {
+  margin: 100px;
+}
+
+.spacer {
+  height: 10px;
+}
+.spacer-20 {
+  height: 20px;
+}
+.spacer-30 {
+  height: 30px;
+}
+.spacer-40 {
+  height: 40px;
+}
+.spacer-50 {
+  height: 50px;
+}
+.spacer-100 {
+  height: 100px;
+}
+
+.ar-grid {
+  -webkit-display: flex;
+  display: flex;
+  width: 100%;
+}
+.ar-grid .ar-col-1 {
+  flex: 1;
+}
+.ar-grid .ar-col-2 {
+  flex: 2;
+}
+.ar-grid .ar-col-3 {
+  flex: 3;
+}
+.ar-grid .ar-col-4 {
+  flex: 4;
+}
+.ar-grid .ar-col-5 {
+  flex: 5;
+}
+.ar-grid .ar-col-6 {
+  flex: 6;
+}
+.ar-grid .ar-col-7 {
+  flex: 7;
+}
+.ar-grid .ar-col-8 {
+  flex: 8;
+}
+.ar-grid .ar-col-9 {
+  flex: 9;
+}
+.ar-grid .ar-col-10 {
+  flex: 10;
+}
+
+.ar-block {
+  padding: 10px;
+  box-sizing: border-box;
+}
+.ar-block-20 {
+  padding: 20px;
+}
+.ar-block-30 {
+  padding: 30px;
+}
+
+.accent {
+  color: #17877a;
+}
+
+.light {
+  color: #ffffff;
+}
+
+.dark {
+  color: #000000;
+}
+
+.warning {
+  color: #ffa347;
+}
+
+.error {
+  color: #b94a48;
+}
+
+.success {
+  color: #468847;
+}
+
+.message {
+  position: relative;
+  padding: 7px 7px 7px 33px;
+  margin: 7px 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  text-align: left;
+}
+.message.info {
+  border-left: 3px solid #3a87ad;
+  background-image: linear-gradient(to right, rgba(58, 135, 173, 0.5), transparent);
+}
+.message.info:before {
+  position: absolute;
+  top: 5;
+  left: 10px;
+  font-family: FontAwesome;
+  content: "\f05a";
+  color: #3a87ad;
+}
+.message.success {
+  border-left: 3px solid #468847;
+  background-image: linear-gradient(to right, rgba(70, 136, 71, 0.5), transparent);
+}
+.message.success:before {
+  position: absolute;
+  top: 5;
+  left: 10px;
+  font-family: FontAwesome;
+  content: "\f00c";
+  color: #468847;
+}
+.message.warning {
+  border-left: 3px solid #ffa347;
+  background-image: linear-gradient(to right, rgba(255, 163, 71, 0.5), transparent);
+}
+.message.warning:before {
+  position: absolute;
+  top: 5;
+  left: 10px;
+  font-family: FontAwesome;
+  content: "\f071";
+  color: #ffa347;
+}
+.message.error {
+  border-left: 3px solid #b94a48;
+  background-image: linear-gradient(to right, rgba(185, 74, 72, 0.5), transparent);
+}
+.message.error:before {
+  position: absolute;
+  top: 5;
+  left: 10px;
+  font-family: FontAwesome;
+  content: "\f056";
+  color: #b94a48;
+}
+
+.ar-wrapper {
+  width: 100%;
+  max-width: 100%;
+  padding: 30px;
+  margin: 0 auto;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.3);
+}
+.ar-wrapper.no-bg {
+  background: none !important;
+}
+.ar-wrapper-1000 {
+  width: 1000px;
+  max-width: 100%;
+  padding: 30px;
+  margin: 0 auto;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.3);
+}
+.ar-wrapper-1000.no-bg {
+  background: none !important;
+}
+.ar-wrapper-800 {
+  width: 800px;
+  max-width: 100%;
+  padding: 30px;
+  margin: 0 auto;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.3);
+}
+.ar-wrapper-800.no-bg {
+  background: none !important;
+}
+.ar-wrapper-600 {
+  width: 600px;
+  max-width: 100%;
+  padding: 30px;
+  margin: 0 auto;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.3);
+}
+.ar-wrapper-600.no-bg {
+  background: none !important;
+}
+.ar-wrapper-400 {
+  width: 400px;
+  max-width: 100%;
+  padding: 30px;
+  margin: 0 auto;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.3);
+}
+.ar-wrapper-400.no-bg {
+  background: none !important;
+}
+.ar-wrapper-200 {
+  width: 200px;
+  max-width: 100%;
+  padding: 30px;
+  margin: 0 auto;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.3);
+}
+.ar-wrapper-200.no-bg {
+  background: none !important;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.block {
+  display: block !important;
+}
+
+.pirulen {
+  font-family: "pirulen", sans-serif;
+}
+
+.monitorica {
+  font-family: "monitorica", sans-serif;
+}
+
+.thumbnail {
+  width: 60px;
+  height: 60px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+/***
+  __    ___    __    __   _    _____   __    ___
+ / /\  | |_)  / /\  ( (` | |_|  | |   / /\  | | \
+/_/--\ |_| \ /_/--\ _)_) |_| |  |_|  /_/--\ |_|_/
+
+*** Product Name:    Sci-Fi Game UI
+*** Description:     UI elements pack for Sci-Fi games.
+*** Author:          Arashtad
+*** Author URI:      https://arashtad.com
+*** Version:         1.0.0
+*** Creation Date:   Nov 21, 2022
+*** License:         GNU General Public License V3
+*** Copyright:       (C) 2022 - Arashtad.com. All Rights Reserved.
+
+***/
+@media only screen and (max-width: 980px) {
+  .ar-grid .ar-grid-row {
+    -webkit-display: block !important;
+    display: block !important;
+    width: 100% !important;
+  }
+  .ar-grid .ar-grid-row .ar-grid-cell {
+    flex: none !important;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .ar-grid .ar-grid-row .ar-grid-cell-1, .ar-grid .ar-grid-row .ar-grid-cell-2, .ar-grid .ar-grid-row .ar-grid-cell-3, .ar-grid .ar-grid-row .ar-grid-cell-4, .ar-grid .ar-grid-row .ar-grid-cell-5, .ar-grid .ar-grid-row .ar-grid-cell-6, .ar-grid .ar-grid-row .ar-grid-cell-7, .ar-grid .ar-grid-row .ar-grid-cell-8, .ar-grid .ar-grid-row .ar-grid-cell-9 {
+    flex: none !important;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 980px) {
+  .hide-in-tablet {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .ar-grid {
+    -webkit-display: block;
+    display: block;
+  }
+  .ar-grid div[class^=ar-col] {
+    display: block;
+    width: 100%;
+  }
+  .ar-table .ar-table-row {
+    -webkit-display: block !important;
+    display: block !important;
+    width: 100%;
+  }
+  .ar-table .ar-table-row .ar-table-head {
+    display: none;
+  }
+  .ar-table .ar-table-row .ar-table-cell {
+    flex: none !important;
+    display: block;
+    width: 100%;
+  }
+  .hide-in-mobile {
+    display: none !important;
+  }
+}
+.title {
+  font-family: "pirulen", sans-serif;
+}
+
+.ar-container {
+  width: 1200px;
+  max-width: 100%;
+  padding: 30px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.ar-box {
+  position: relative;
+  max-width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 1px solid #3b3b3b;
+  border-radius: 4px;
+  background-color: #2b2b2b;
+  animation: smooth-blink 2s ease infinite alternate;
+  -ms-box-shadow: 0 0 40px #000000;
+  -o-box-shadow: 0 0 40px #000000;
+  box-shadow: 0 0 40px #000000;
+}
+.ar-box:before, .ar-box:after {
+  content: "";
+  position: absolute;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  animation: blink 3s ease infinite alternate;
+}
+.ar-box:before {
+  top: 10px;
+  left: -8px;
+  height: 30%;
+  border-right: 7px solid #ffa347;
+}
+.ar-box:after {
+  bottom: 10px;
+  right: -8px;
+  height: 30%;
+  border-left: 7px solid #ffa347;
+}
+.ar-box.wide {
+  width: 100%;
+}
+.ar-box.medium {
+  width: 800px;
+}
+.ar-box.thin {
+  width: 500px;
+}
+.ar-box .ar-box-block {
+  position: relative;
+  padding: 0;
+  margin: 10px;
+  border: 1px solid #454545;
+  border-radius: 4px;
+  background-image: radial-gradient(#454545 5%, transparent 5%);
+  background-color: #333333;
+  background-position: 30px 30px;
+  background-size: 30px 30px;
+}
+.ar-box .ar-box-block:before, .ar-box .ar-box-block:after {
+  content: "";
+  position: absolute;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+}
+.ar-box .ar-box-block:before {
+  top: 60px;
+  left: -16px;
+  height: 20%;
+  border-right: 4px solid #17877a;
+}
+.ar-box .ar-box-block:after {
+  bottom: 60px;
+  right: -16px;
+  height: 20%;
+  border-left: 4px solid #17877a;
+}
+.ar-box .ar-box-block .ar-box-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  margin: 0;
+  box-sizing: border-box;
+}
+.ar-box .ar-box-block .ar-box-content:before {
+  content: "...";
+  position: absolute;
+  bottom: -1px;
+  left: -11px;
+  transform: rotate(90deg);
+  color: #17877a;
+  font: bold 40px/1em "Times New Roman", sans-serif;
+  animation: blink 1s ease infinite alternate;
+}
+.ar-box .ar-box-block .ar-box-content:after {
+  content: "";
+  position: absolute;
+  top: 10%;
+  right: -13px;
+  width: 5px;
+  height: 80%;
+  border-left: 2px dotted #ffa347;
+  opacity: 0.5;
+}
+.ar-box .ar-box-block .ar-box-content .ar-box-fixer-1 {
+  position: relative;
+  top: -22px;
+  left: 0;
+  width: 100%;
+  height: 0;
+}
+.ar-box .ar-box-block .ar-box-content .ar-box-fixer-1:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -20px;
+  display: inline-block;
+  border-bottom: 7px solid #ffa347;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  transform: rotate(-45deg);
+}
+.ar-box .ar-box-block .ar-box-content .ar-box-fixer-1:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  right: -20px;
+  display: inline-block;
+  border-top: 7px solid #ffa347;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  transform: rotate(-135deg);
+}
+.ar-box .ar-box-block .ar-box-content .ar-box-fixer-2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+}
+.ar-box .ar-box-block .ar-box-content .ar-box-fixer-2:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  border-bottom: 7px solid #ffa347;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  transform: rotate(-135deg);
+}
+.ar-box .ar-box-block .ar-box-content .ar-box-fixer-2:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  border-top: 7px solid #ffa347;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  transform: rotate(-45deg);
+}
+.ar-box .ar-box-block .ar-box-title {
+  display: inline-block;
+  clear: both;
+  padding: 13px 77px 13px 13px;
+  margin: 10px;
+  border-left: 3px solid #ffa347;
+  background-image: linear-gradient(to right, rgba(23, 135, 122, 0.5), transparent);
+  font: normal 1.5vw/1em "pirulen", sans-serif;
+}
+.ar-box .ar-box-block form {
+  margin: 10px;
+}
+.ar-box .ar-box-block form input[type=text],
+.ar-box .ar-box-block form input[type=email],
+.ar-box .ar-box-block form input[type=password],
+.ar-box .ar-box-block form input[type=number],
+.ar-box .ar-box-block form select,
+.ar-box .ar-box-block form textarea {
+  width: 100%;
+  padding: 13px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #3b3b3b;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #17877a;
+  font: normal 18px/1em "monitorica", sans-serif;
+  transition: all 0.3s;
+}
+.ar-box .ar-box-block form input[type=text]:focus,
+.ar-box .ar-box-block form input[type=email]:focus,
+.ar-box .ar-box-block form input[type=password]:focus,
+.ar-box .ar-box-block form input[type=number]:focus,
+.ar-box .ar-box-block form select:focus,
+.ar-box .ar-box-block form textarea:focus {
+  outline: none;
+  border-color: #17877a;
+}
+.ar-box .ar-box-block form select {
+  color: #ffffff;
+}
+.ar-box .ar-box-block form textarea {
+  resize: none;
+}
+.ar-box .ar-box-block form input[type=submit],
+.ar-box .ar-box-block form input[type=button],
+.ar-box .ar-box-block form button {
+  position: relative;
+  width: 100%;
+  padding: 13px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #1ca696;
+  border-radius: 4px;
+  background: #17877a;
+  color: #ffffff;
+  font: normal 15px/1em "pirulen", sans-serif;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.ar-box .ar-box-block form input[type=submit]:hover,
+.ar-box .ar-box-block form input[type=button]:hover,
+.ar-box .ar-box-block form button:hover {
+  border: 1px solid #12685e;
+  background: #0d4e47;
+}
+.ar-box .ar-box-block .avatar {
+  position: relative;
+  width: 110px;
+  height: 110px;
+  margin: 0 auto 10px;
+}
+.ar-box .ar-box-block .avatar img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #1c1c1c;
+}
+.ar-box .ar-box-block .avatar input[type=file] {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.ar-box .ar-box-block .avatar input[type=file]:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #17877a;
+  transition: all 0.3s;
+}
+.ar-box .ar-box-block .avatar input[type=file]:before {
+  font-family: FontAwesome;
+  content: "\f03e";
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 2.4em;
+}
+.ar-box .ar-box-block .avatar input[type=file]:hover:before {
+  background: #ffa347;
+}
+
+.ar-card {
+  position: relative;
+  max-width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 1px solid #3b3b3b;
+  border-radius: 4px;
+  background-color: #2b2b2b;
+  animation: smooth-blink 2s ease infinite alternate;
+  -ms-box-shadow: 0 0 40px #000000;
+  -o-box-shadow: 0 0 40px #000000;
+  box-shadow: 0 0 40px #000000;
+}
+.ar-card:before, .ar-card:after {
+  content: "";
+  position: absolute;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  animation: blink 3s ease infinite alternate;
+}
+.ar-card:before {
+  top: 10px;
+  left: -8px;
+  height: 30%;
+  border-right: 7px solid #ffa347;
+}
+.ar-card:after {
+  bottom: 10px;
+  right: -8px;
+  height: 30%;
+  border-left: 7px solid #ffa347;
+}
+.ar-card.wide {
+  width: 100%;
+}
+.ar-card.medium {
+  width: 800px;
+}
+.ar-card.thin {
+  width: 500px;
+}
+.ar-card .ar-card-block {
+  position: relative;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  border: 1px solid #454545;
+  border-radius: 4px;
+  background-image: radial-gradient(#454545 5%, transparent 5%);
+  background-color: #333333;
+  background-position: 30px 30px;
+  background-size: 30px 30px;
+}
+.ar-card .ar-card-block:before, .ar-card .ar-card-block:after {
+  content: "";
+  position: absolute;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+}
+.ar-card .ar-card-block:before {
+  top: 60px;
+  left: -16px;
+  height: 20%;
+  border-right: 4px solid #17877a;
+}
+.ar-card .ar-card-block:after {
+  bottom: 60px;
+  right: -16px;
+  height: 20%;
+  border-left: 4px solid #17877a;
+}
+.ar-card .ar-card-block img {
+  max-width: 100%;
+}
+.ar-card.active {
+  background-color: #ffa347;
+}
+.ar-card.active .ar-card-block {
+  background-color: #666666;
+}
+
+.ar-grid .ar-grid-row {
+  position: relative;
+  -webkit-display: flex;
+  display: flex;
+  width: 100%;
+}
+.ar-grid .ar-grid-row .ar-grid-cell {
+  flex: 1;
+}
+.ar-grid .ar-grid-row .ar-grid-cell-1 {
+  flex: 1;
+}
+.ar-grid .ar-grid-row .ar-grid-cell-2 {
+  flex: 2;
+}
+.ar-grid .ar-grid-row .ar-grid-cell-3 {
+  flex: 3;
+}
+.ar-grid .ar-grid-row .ar-grid-cell-4 {
+  flex: 4;
+}
+.ar-grid .ar-grid-row .ar-grid-cell-5 {
+  flex: 5;
+}
+.ar-grid .ar-grid-row .ar-grid-cell-6 {
+  flex: 6;
+}
+.ar-grid .ar-grid-row .ar-grid-cell-7 {
+  flex: 7;
+}
+.ar-grid .ar-grid-row .ar-grid-cell-8 {
+  flex: 8;
+}
+.ar-grid .ar-grid-row .ar-grid-cell-9 {
+  flex: 9;
+}
+.ar-grid .ar-grid-row .ar-grid-cell-10 {
+  flex: 10;
+}
+
+.ar-table {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  font: normal 13px/1.3em "pirulen", sans-serif;
+}
+.ar-table .ar-table-row {
+  -webkit-display: flex;
+  display: flex;
+  width: 100%;
+}
+.ar-table .ar-table-row .ar-table-head {
+  flex: 1;
+  padding: 13px;
+  border-right: 1px solid rgba(23, 135, 122, 0.2);
+  background: rgba(23, 135, 122, 0.3);
+  color: #ffa347;
+  text-align: center;
+  transition: all 0.3s;
+}
+.ar-table .ar-table-row .ar-table-head:last-child {
+  border-right: none;
+}
+.ar-table .ar-table-row .ar-table-cell {
+  flex: 1;
+  padding: 13px;
+  border-right: 1px solid rgba(23, 135, 122, 0.2);
+  color: #ffffff;
+  transition: all 0.3s;
+  vertical-align: baseline;
+}
+.ar-table .ar-table-row .ar-table-cell:last-child {
+  border-right: none;
+}
+.ar-table .ar-table-row .ar-table-cell .avatar {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin: 0 20px 0 0;
+  border-radius: 50%;
+  vertical-align: top;
+}
+.ar-table .ar-table-row .ar-table-cell-1 {
+  flex: 1;
+}
+.ar-table .ar-table-row .ar-table-cell-2 {
+  flex: 2;
+}
+.ar-table .ar-table-row .ar-table-cell-3 {
+  flex: 3;
+}
+.ar-table .ar-table-row .ar-table-cell-4 {
+  flex: 4;
+}
+.ar-table .ar-table-row .ar-table-cell-5 {
+  flex: 5;
+}
+.ar-table .ar-table-row .ar-table-cell-6 {
+  flex: 6;
+}
+.ar-table .ar-table-row .ar-table-cell-7 {
+  flex: 7;
+}
+.ar-table .ar-table-row .ar-table-cell-8 {
+  flex: 8;
+}
+.ar-table .ar-table-row .ar-table-cell-9 {
+  flex: 9;
+}
+.ar-table .ar-table-row .ar-table-cell-10 {
+  flex: 10;
+}
+.ar-table .ar-table-row:nth-child(odd) .ar-table-cell {
+  background: rgba(23, 135, 122, 0.05);
+}
+.ar-table .ar-table-row:nth-child(odd):hover .ar-table-cell {
+  background: rgba(255, 163, 71, 0.14);
+}
+.ar-table .ar-table-row:nth-child(even) .ar-table-cell {
+  background: rgba(23, 135, 122, 0.1);
+}
+.ar-table .ar-table-row:nth-child(even):hover .ar-table-cell {
+  background: rgba(255, 163, 71, 0.14);
+}
+.ar-list {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+}
+.ar-list li {
+  margin-bottom: 7px;
+}
+.ar-list li a, .ar-list li > span {
+  display: block;
+  padding: 13px;
+  border-left: 3px solid #17877a;
+  background-image: linear-gradient(to right, rgba(23, 135, 122, 0.2), transparent);
+  font-family: "pirulen", sans-serif;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+.ar-list li a:hover, .ar-list li > span:hover {
+  border-left-color: #ffa347;
+  background-image: linear-gradient(to right, rgba(23, 135, 122, 0.7), transparent);
+  text-shadow: 0 0 9px #ffffff;
+}
+.ar-list li a:hover .fa, .ar-list li > span:hover .fa {
+  color: #ffa347;
+  text-shadow: 0 0 9px #ffa347;
+}
+.ar-list li a:hover.success,
+.ar-list li a:hover .success, .ar-list li > span:hover.success,
+.ar-list li > span:hover .success {
+  text-shadow: 0 0 9px #468847;
+}
+.ar-list li a:hover.warning,
+.ar-list li a:hover .warning, .ar-list li > span:hover.warning,
+.ar-list li > span:hover .warning {
+  text-shadow: 0 0 9px #ffa347;
+}
+.ar-list li a:hover.error,
+.ar-list li a:hover .error, .ar-list li > span:hover.error,
+.ar-list li > span:hover .error {
+  text-shadow: 0 0 9px #b94a48;
+}
+.ar-list.small li {
+  margin-bottom: 4px;
+}
+.ar-list.small li a, .ar-list.small li > span {
+  display: block;
+  padding: 5px;
+  font-size: 13px;
+}
+
+.ar-pagination {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  font-family: "pirulen", sans-serif;
+}
+.ar-pagination li {
+  display: inline-block;
+  padding: 0;
+  margin: 0 1px;
+  vertical-align: top;
+}
+.ar-pagination li > a {
+  border: 1px solid #17877a;
+  background: rgba(23, 135, 122, 0.1);
+  color: #17877a;
+  transition: all 0.3s;
+}
+.ar-pagination li > a:hover {
+  border-color: #ffa347;
+  background: rgba(255, 163, 71, 0.5);
+  color: #ffffff;
+}
+.ar-pagination li > span {
+  border: 1px solid #666666;
+  background: rgba(102, 102, 102, 0.1);
+  color: #666666;
+}
+.ar-pagination li > a, .ar-pagination li > span {
+  display: block;
+  width: 14px;
+  height: 14px;
+  padding: 10px;
+  margin: 0;
+  border-left-width: 3px;
+  border-radius: 0 5px 0 5px;
+  font-size: 14px;
+  line-height: 1em;
+}
+.ar-pagination li.dots > a, .ar-pagination li.dots > span {
+  padding: 10px 0;
+  border: none;
+  background: none;
+  color: #666666;
+  font-size: 20px;
+  transition: none;
+}
+
+.ar-button {
+  display: inline-block;
+  padding: 13px 33px 13px 13px;
+  border-left: 3px solid #17877a;
+  background-image: linear-gradient(to right, rgba(23, 135, 122, 0.7), transparent);
+  color: #ffffff;
+  font-family: "pirulen", sans-serif;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.ar-button .fa {
+  transition: all 0.3s;
+}
+.ar-button.small {
+  padding: 5px 25px 5px 5px;
+  font-size: 11px;
+}
+.ar-button:hover {
+  border-left-color: #ffa347;
+  background-image: linear-gradient(to right, rgba(23, 135, 122, 0.7), transparent);
+  color: #ffffff;
+  text-shadow: 0 0 9px #ffffff;
+}
+.ar-button:hover .fa {
+  color: #ffa347;
+  text-shadow: 0 0 3px #000000;
+}
+.ar-button-2 {
+  position: relative;
+  display: inline-block;
+  padding: 13px 33px 13px 13px;
+  border: 1px solid #17877a;
+  border-left: 3px solid #17877a;
+  border-radius: 0 9px 0 0;
+  background-image: none;
+  color: #ffffff;
+  font-family: "pirulen", sans-serif;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.ar-button-2:before, .ar-button-2:after {
+  content: "";
+  position: absolute;
+}
+.ar-button-2:before {
+  top: 5px;
+  left: -8px;
+  height: 30%;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-right: 7px solid #ffa347;
+  animation: blink 1s ease infinite alternate;
+}
+.ar-button-2:after {
+  bottom: -4px;
+  right: 4px;
+  width: 30%;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #17877a;
+  transition: all 0.3s;
+}
+.ar-button-2 .fa {
+  transition: all 0.3s;
+}
+.ar-button-2:hover {
+  border-color: #ffa347;
+  background-image: linear-gradient(to right, rgba(255, 163, 71, 0.3), transparent);
+  color: #ffffff;
+  text-shadow: 0 0 9px #ffffff;
+}
+.ar-button-2:hover:before {
+  left: -13px;
+  height: 50%;
+}
+.ar-button-2:hover:after {
+  bottom: -7px;
+  width: 50%;
+  border-top-color: #b94a48;
+}
+.ar-button-2:hover .fa {
+  color: #ffa347;
+  text-shadow: 0 0 3px #000000;
+}
+.ar-button-3 {
+  position: relative;
+  display: inline-block;
+  padding: 13px;
+  border: 1px solid #17877a;
+  border-radius: 4px;
+  background: #14766a;
+  color: #ffffff;
+  font-family: "pirulen", sans-serif;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.ar-button-3.warning {
+  border: 1px solid #ffa347;
+  background: #ff9933;
+}
+.ar-button-3.error {
+  border: 1px solid #b94a48;
+  background: #ab4341;
+}
+.ar-button-3.small {
+  padding: 5px;
+  font-size: 11px;
+}
+.ar-button-3:disabled, .ar-button-3[disabled] {
+  border-color: #737373;
+  background: #737373;
+}
+.ar-button-3:hover {
+  border-color: #137166;
+  background: #106057;
+  color: #ffffff;
+  text-shadow: 0 0 9px #ffffff;
+}
+.ar-button-3:hover.warning {
+  border-color: #ff962e;
+  background: #ff8c19;
+}
+.ar-button-3:hover.error {
+  border-color: #a74240;
+  background: #993c3a;
+}
+.ar-button-3:hover:disabled, .ar-button-3:hover[disabled] {
+  border-color: #737373;
+  background: #737373;
+  text-shadow: none;
+}
+
+.ar-arrow {
+  position: relative;
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  border: 2px solid #17877a;
+  outline: 3px dotted #ffa347;
+  border-radius: 50%;
+  background: rgba(23, 135, 122, 0.05);
+  text-align: center;
+  line-height: 139px;
+  transition: all 0.3s;
+}
+.ar-arrow:before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  border: 2px solid transparent;
+  border-left: 7px double #17877a;
+  border-right: 7px solid #17877a;
+  border-radius: 50%;
+  box-sizing: border-box;
+  transition: all 0.7s;
+}
+.ar-arrow .fa, .ar-arrow > span {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border: 2px solid transparent;
+  border-left: 2px solid #ffa347;
+  border-bottom: 2px solid #ffa347;
+  border-radius: 50%;
+  outline: 2px dotted #b94a48;
+  background: rgba(23, 135, 122, 0.4);
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 45px;
+  transition: all 0.3s;
+}
+.ar-arrow:hover {
+  border-color: #b94a48;
+  background: rgba(255, 163, 71, 0.9);
+  transform: rotate(-35deg);
+}
+.ar-arrow:hover:before {
+  border-left-color: #000000;
+  border-right-color: #000000;
+  transform: rotate(35deg);
+}
+.ar-arrow:hover .fa, .ar-arrow:hover > span {
+  border-left-color: #000000;
+  border-bottom-color: #000000;
+  outline: 2px dotted #000000;
+  background: #b94a48;
+  color: #000000;
+  transform: rotate(35deg);
+}
+.ar-arrow-2 {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 300px;
+  max-height: 100%;
+  border: 1px solid transparent;
+  border-bottom: 4px dotted rgba(255, 163, 71, 0.5);
+  outline: 1px solid rgba(23, 135, 122, 0.4);
+  box-sizing: border-box;
+  background: rgba(23, 135, 122, 0.2);
+  color: #ffffff;
+  text-align: center;
+  line-height: 300px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.ar-arrow-2:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -3px;
+  display: inline-block;
+  border-top: 7px solid #ffa347;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  transform: rotate(-135deg);
+  transition: all 0.3s;
+}
+.ar-arrow-2:hover {
+  border-bottom-color: #ff8c19;
+  background: #ffa347;
+  color: #000000;
+}
+.ar-arrow-2:hover:before {
+  border-top-color: #b94a48;
+}
+.ar-arrow-3 {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+  border: 1px solid #17877a;
+  border-radius: 0 9px 0 9px;
+  background: rgba(23, 135, 122, 0.1);
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  transition: all 0.3s;
+}
+.ar-arrow-3:hover {
+  border-color: #ff9933;
+  background: #ffa347;
+  color: #000000;
+}
+
+.ar-preloader,
+.ar-preloader-2 {
+  animation: smooth-blink 1s ease infinite alternate;
+}
+.ar-preloader .ar-preloader-wrapper,
+.ar-preloader-2 .ar-preloader-wrapper {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 5px solid transparent;
+  border-left: 5px dotted #ffa347;
+  border-bottom: 5px dotted #ffa347;
+  outline: 1px solid rgba(23, 135, 122, 0.4);
+  border-radius: 50%;
+  background: rgba(23, 135, 122, 0.1);
+  -ms-box-shadow: 0 0 33px rgba(185, 74, 72, 0.5);
+  -o-box-shadow: 0 0 33px rgba(185, 74, 72, 0.5);
+  box-shadow: 0 0 33px rgba(185, 74, 72, 0.5);
+  animation: rotate 3s linear infinite;
+}
+.ar-preloader .ar-preloader-wrapper ul,
+.ar-preloader-2 .ar-preloader-wrapper ul {
+  position: relative;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  text-align: center;
+  font: normal 12px/150px "pirulen", sans-serif;
+  animation: rotate-reverse 3s linear infinite;
+}
+.ar-preloader .ar-preloader-wrapper ul:before,
+.ar-preloader-2 .ar-preloader-wrapper ul:before {
+  content: "";
+  position: absolute;
+  top: -9%;
+  left: -9%;
+  width: 118%;
+  height: 118%;
+  border: 4px solid transparent;
+  border-top: 4px double #ce1d1a;
+  border-right: 4px double #ce1d1a;
+  border-radius: 50%;
+  box-sizing: border-box;
+  animation: rotate-reverse 3s linear infinite;
+}
+.ar-preloader .ar-preloader-wrapper ul:after,
+.ar-preloader-2 .ar-preloader-wrapper ul:after {
+  content: "";
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  border: 4px solid transparent;
+  border-right: 4px dashed #17877a;
+  outline: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  box-sizing: border-box;
+  background: rgba(23, 135, 122, 0.05);
+  -ms-box-shadow: 0 0 18px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 18px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.5);
+  animation: rotate-reverse-2 3s linear infinite;
+}
+.ar-preloader .ar-preloader-wrapper ul li,
+.ar-preloader-2 .ar-preloader-wrapper ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  animation: full-blink 1s ease infinite alternate;
+}
+.ar-preloader .ar-preloader-wrapper ul li:nth-child(2),
+.ar-preloader-2 .ar-preloader-wrapper ul li:nth-child(2) {
+  animation-delay: 0.33s;
+}
+.ar-preloader .ar-preloader-wrapper ul li:nth-child(3),
+.ar-preloader-2 .ar-preloader-wrapper ul li:nth-child(3) {
+  animation-delay: 0.66s;
+}
+.ar-preloader .ar-preloader-wrapper ul li:nth-child(4),
+.ar-preloader-2 .ar-preloader-wrapper ul li:nth-child(4) {
+  animation-delay: 1s;
+}
+
+.ar-preloader-2 {
+  position: relative;
+}
+.ar-preloader-2 .ar-loader-logo {
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  width: 80px;
+  height: 80px;
+  background: url(../images/logo.webp) no-repeat center center;
+  background-size: contain;
+  animation: blink 1s ease infinite alternate;
+}
+.ar-preloader-2 .ar-preloader-wrapper ul {
+  font: normal 9px/220px "pirulen", sans-serif;
+}
+.ar-slider {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  height: 300px;
+  max-height: 100%;
+  overflow: hidden;
+}
+.ar-slider .ar-slider-button {
+  position: absolute;
+  top: 0;
+  width: 50px;
+  vertical-align: top;
+  opacity: 0.4;
+  transition: all 0.4s;
+}
+.ar-slider .ar-slider-button:first-child {
+  left: 0;
+}
+.ar-slider .ar-slider-button:last-child {
+  right: 0;
+}
+.ar-slider .ar-slider-button:hover {
+  opacity: 1;
+}
+.ar-slider ul.ar-slider-list {
+  list-style: none;
+  position: relative;
+  top: 0;
+  left: 52px;
+  width: calc(100% - 104px);
+  min-height: 300px;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.ar-slider ul.ar-slider-list li {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+  opacity: 0;
+}
+.ar-slider ul.ar-slider-list li h1, .ar-slider ul.ar-slider-list li h2, .ar-slider ul.ar-slider-list li h3, .ar-slider ul.ar-slider-list li h4, .ar-slider ul.ar-slider-list li h5, .ar-slider ul.ar-slider-list li h6 {
+  padding: 20px 0 0 13px;
+  margin: 0;
+}
+.ar-slider ul.ar-slider-list li.active {
+  display: block;
+  animation: fadein 0.5s 1 forwards;
+}
+
+label {
+  display: inline-block;
+  padding: 3px 5px;
+  border-radius: 4px;
+  color: #ffffff !important;
+  font-size: 13px;
+}
+label.large {
+  padding: 4px 7px;
+  font-size: 17px;
+}
+label.info {
+  background: #3a87ad;
+}
+label.success {
+  background: #468847;
+}
+label.warning {
+  background: #ffa347;
+}
+label.error {
+  background: #b94a48;
+}
+label.passive {
+  background: #737373;
+  color: #000000;
+}
+
+img {
+  max-width: 100%;
+}
+
+.ar-tabs {
+  -webkit-display: flex;
+  display: flex;
+  width: 100%;
+  min-height: 500px;
+  border: 1px solid black;
+  border-radius: 5px;
+  -ms-box-shadow: 0 0 1px #0a272a;
+  -o-box-shadow: 0 0 1px #0a272a;
+  box-shadow: 0 0 1px #0a272a;
+  background: #020809;
+  overflow: hidden;
+}
+.ar-tabs ul.ar-tabs-buttons {
+  list-style: none;
+  flex: 1;
+  padding: 0;
+  margin: 0;
+  background: #051e1b;
+}
+.ar-tabs ul.ar-tabs-buttons li {
+  padding: 13px;
+  margin: 0;
+  border-top: 1px solid #09342f;
+  border-bottom: 1px solid #010908;
+  color: #c2c2c2;
+  font-size: 11px;
+  font-family: "pirulen", sans-serif;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.ar-tabs ul.ar-tabs-buttons li:last-child {
+  -ms-box-shadow: 0 1px 1px #09342f;
+  -o-box-shadow: 0 1px 1px #09342f;
+  box-shadow: 0 1px 1px #09342f;
+}
+.ar-tabs ul.ar-tabs-buttons li:hover, .ar-tabs ul.ar-tabs-buttons li.active {
+  background: #08302b;
+  color: #ffffff;
+  text-shadow: 0 0 9px #ffffff;
+}
+.ar-tabs ul.ar-tabs-content {
+  list-style: none;
+  position: relative;
+  flex: 6;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.ar-tabs ul.ar-tabs-content > li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  opacity: 0;
+}
+.ar-tabs ul.ar-tabs-content > li.active {
+  display: block;
+  animation: fadein 0.4s 1 forwards;
+}
+
+.screen {
+  position: absolute;
+  height: 29%;
+  top: 30%;
+  transform: translateX(-50%);
+  left: 50%;
+}
+.screen .inner {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.ar-modal {
+  cursor: pointer;
+}
+
+.ar-modal-window {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+}
+.ar-modal-window .ar-modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-size: 24px;
+  line-height: 50px;
+  cursor: pointer;
+  opacity: 0.3;
+  transition: all 0.3s;
+}
+.ar-modal-window .ar-modal-close:before {
+  font-family: FontAwesome;
+  content: "\f00d";
+  color: #000000;
+}
+.ar-modal-window .ar-modal-close:hover {
+  opacity: 0.9;
+}
+.ar-modal-window .ar-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.ar-modal-window.open {
+  display: block;
+  animation: fadein 1s 1 forwards;
+}/*# sourceMappingURL=master.css.map */

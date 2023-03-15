@@ -1,0 +1,64 @@
+/***
+  __    ___    __    __   _    _____   __    ___
+ / /\  | |_)  / /\  ( (` | |_|  | |   / /\  | | \
+/_/--\ |_| \ /_/--\ _)_) |_| |  |_|  /_/--\ |_|_/
+
+*** Product Name:    Sci-Fi Game UI
+*** Description:     UI elements pack for Sci-Fi games.
+*** Author:          Arashtad
+*** Author URI:      https://arashtad.com
+*** Version:         1.0.0
+*** Creation Date:   Nov 21, 2022
+*** License:         GNU General Public License V3
+*** Copyright:       (C) 2022 - Arashtad.com. All Rights Reserved.
+
+***/
+@media only screen and (max-width: 980px) {
+  .ar-grid .ar-grid-row {
+    -webkit-display: block !important;
+    display: block !important;
+    width: 100% !important;
+  }
+  .ar-grid .ar-grid-row .ar-grid-cell {
+    flex: none !important;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .ar-grid .ar-grid-row .ar-grid-cell-1, .ar-grid .ar-grid-row .ar-grid-cell-2, .ar-grid .ar-grid-row .ar-grid-cell-3, .ar-grid .ar-grid-row .ar-grid-cell-4, .ar-grid .ar-grid-row .ar-grid-cell-5, .ar-grid .ar-grid-row .ar-grid-cell-6, .ar-grid .ar-grid-row .ar-grid-cell-7, .ar-grid .ar-grid-row .ar-grid-cell-8, .ar-grid .ar-grid-row .ar-grid-cell-9 {
+    flex: none !important;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 980px) {
+  .hide-in-tablet {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .ar-grid {
+    -webkit-display: block;
+    display: block;
+  }
+  .ar-grid div[class^=ar-col] {
+    display: block;
+    width: 100%;
+  }
+  .ar-table .ar-table-row {
+    -webkit-display: block !important;
+    display: block !important;
+    width: 100%;
+  }
+  .ar-table .ar-table-row .ar-table-head {
+    display: none;
+  }
+  .ar-table .ar-table-row .ar-table-cell {
+    flex: none !important;
+    display: block;
+    width: 100%;
+  }
+  .hide-in-mobile {
+    display: none !important;
+  }
+}/*# sourceMappingURL=media-queries.css.map */

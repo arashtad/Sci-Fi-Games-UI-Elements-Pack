@@ -1,0 +1,29 @@
+/***
+  __    ___    __    __   _    _____   __    ___
+ / /\  | |_)  / /\  ( (` | |_|  | |   / /\  | | \
+/_/--\ |_| \ /_/--\ _)_) |_| |  |_|  /_/--\ |_|_/
+
+*** Product Name:    Sci-Fi Game UI
+*** Description:     UI elements pack for Sci-Fi games.
+*** Author:          Arashtad
+*** Author URI:      https://arashtad.com
+*** Version:         1.0.0
+*** Creation Date:   Nov 21, 2022
+*** License:         GNU General Public License V3
+*** Copyright:       (C) 2022 - Arashtad.com. All Rights Reserved.
+
+***/
+@font-face {
+  font-family: "pirulen";
+  src: url("../fonts/pirulen/PirulenRg-Regular.eot");
+  src: url("../fonts/pirulen/PirulenRg-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/pirulen/PirulenRg-Regular.woff2") format("woff2"), url("../fonts/pirulen/PirulenRg-Regular.woff") format("woff"), url("../fonts/pirulen/PirulenRg-Regular.ttf") format("truetype"), url("../fonts/pirulen/PirulenRg-Regular.svg#PirulenRg-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "monitorica";
+  src: url("../fonts/monitorica/Monitorica.eot");
+  src: url("../fonts/monitorica/Monitorica.eot?#iefix") format("embedded-opentype"), url("../fonts/monitorica/Monitorica.woff2") format("woff2"), url("../fonts/monitorica/Monitorica.woff") format("woff"), url("../fonts/monitorica/Monitorica.ttf") format("truetype"), url("../fonts/monitorica/Monitorica.svg#Monitorica") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}/*# sourceMappingURL=fonts.css.map */
