@@ -11,7 +11,7 @@
 
 ## Demo
 
-![Sci-Fi Game UI](https://demo.arashtad.com/categories/frameworks/sci-fi-game-ui/images/demo.png)
+![Sci-Fi Game UI](https://demo.arashtad.com/categories/frameworks/sci-fi-game-ui/images/preview.png)
 
 To see the product in action [Visit the Live Demo](https://demo.arashtad.com/?category=frameworks&&item=sci-fi-game-ui).
 
